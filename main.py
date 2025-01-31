@@ -65,7 +65,7 @@ def get_book_text(path):
     """
     Reads and returns the content of the book file at the given path.
     """
-    with open(path) as f:  # Explicitly specifying encoding
+    with open(path) as f:  
         return f.read()    
 
 # Run the main function
